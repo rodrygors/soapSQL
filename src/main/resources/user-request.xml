@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://bootcamp.com/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:empId>1</us:empId>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
